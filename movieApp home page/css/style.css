@@ -1,0 +1,140 @@
+:root{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+h6{
+    color: white;
+    padding-bottom: 0;
+}
+body{
+    background-color: black;
+}
+.navbar
+{
+    background-color: transparent !important;
+}
+.navigation-bar{
+    height: 60vh;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav a:hover{
+    color: rgb(229, 11, 29) !important;
+}
+nav a {
+    color: white !important; 
+}
+.dropdown-menu a{
+    color: black !important;
+}
+img{
+    width: 100%;
+}
+.popular{
+    padding-top: 100px;
+}
+.row span{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: small;
+}
+.row{
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    scrollbar-width: none; 
+}
+.light-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+}
+.light-box{
+    background-color: black;
+    width: 75%;
+}
+.ligth-box__caption{
+    color: white;
+}
+.light-box__img img:hover{
+    transform: scale(1.05);
+}
+.light-box__img img{
+    border-radius: 10px;
+}
+.light-box-content{
+    background-image: url(../images/1366_2000\ 1.png);
+    background-size: cover;
+    align-items: center;
+
+/
+}
+.fa-circle-xmark{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.light-box-content i{
+    color: steelblue;
+    cursor: pointer;
+}
+.light-box-content i:hover{
+    transform: scale(1.2);
+
+}
+.fa-circle-xmark:hover{
+    color: rgb(229, 11, 29);
+}
+.fa-circle-right{
+position: absolute;
+right: 15px;
+z-index: 1;
+}
+.fa-circle-left{
+    position: absolute;
+    left: 15px;
+    z-index: 1;
+
+}
+
+/* .fa-gauge{
+    color: steelblue;
+    padding: 20px 0;
+}
+.fa-globe{
+    color: steelblue;
+    padding: 20px 0;
+}*/
+/* .fa-code-merge{
+padding-top: 20px;
+} */
+.icons i
+{
+    color: steelblue;
+    padding: 20px 0;
+}
+.icons i:hover{
+    transform: scale(1.2);
+}
+.icons i:hover p{
+    transform: scale(1.2);
+
+}
+.navbar-toggler i{
+color:  #e50913;
+;}
